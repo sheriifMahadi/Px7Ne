@@ -22,7 +22,7 @@ const Projects = ({ windowsize }) => {
           <Container>
           <Typography variant="h4" align='center' color='cyan' >
               Projects
-              <hr style={{marginBottom: '20px', width: '50px', opacity: '0.5'}}/>
+              <hr className={classes.hr}/>
             </Typography>   
           </Container>
           <div>
