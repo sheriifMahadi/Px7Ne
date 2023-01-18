@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects"
+import Contact from "./components/Contact";
+import DrawerAppBar from "./components/Navbar";
+import { useEffect, useState } from "react";
 
-function App() {
+
+const App = () => {
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(getWindowSize());
+    }
+
+    window.addEventListener('resize', handleWindowResize);
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <DrawerAppBar windowsize={windowSize}/>
+      <Home/>
+      <About/>
+      <Projects windowsize={windowSize}/>
+      <Contact/>
+    </>
+  )
+}
+
+
+function getWindowSize() {
+  const {innerWidth, innerHeight} = window;
+  return {innerWidth, innerHeight};
 }
 
 export default App;
