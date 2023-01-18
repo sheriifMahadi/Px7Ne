@@ -69,6 +69,13 @@ const useStyles = makeStyles((theme) => ({
     },
     cardAction: {
         color: 'cyan !important'
+    },
+    hr: {
+        marginTop: '10px',
+        backgroundColor: 'cyan !important',
+        marginBottom: '20px', 
+        width: '50px', 
+        opacity: '0.5', 
     }
 
   
