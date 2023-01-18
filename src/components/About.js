@@ -27,7 +27,7 @@ const About = () => {
           <Container>
             <Typography variant="h4" align='center' color='cyan' >
               About Me
-              <hr style={{marginBottom: '20px', width: '50px', opacity: '0.5'}}/>
+              <hr className={classes.hr}/>
             </Typography>
             <Typography align='center' paddingBottom={5}>
                 Hi, I'm Mahadi. I am a detail-oriented and passionate software engineer 
@@ -40,7 +40,7 @@ const About = () => {
             <Container>
               <Typography variant="h5" align='center' color='grey' >
                 Skills & Technologies
-                  <hr style={{marginBottom: '20px', width: '50px', opacity: '0.5', textAlign: 'left'}}/>
+                  <hr className={classes.hr}/>
               </Typography>
               <Typography variant="" align='left'>
               </Typography>
