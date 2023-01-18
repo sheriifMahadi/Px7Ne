@@ -33,7 +33,7 @@ const Contact = () => {
           <Container>
           <Typography variant="h4" align='center' color='cyan' >
               Contact Me
-              <hr style={{marginBottom: '20px', width: '50px', opacity: '0.5'}}/>
+              <hr className={classes.hr}/>
             </Typography>
             <Typography align='center' paddingBottom={5}>
                 I am currently open to new opportunities. Feel free 
