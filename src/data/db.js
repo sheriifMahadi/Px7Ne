@@ -24,7 +24,7 @@ const projects = {
       {
          id: 3,
          title: "z-notes",
-         description: "A notes app built using Nodejs, React and RTK.",
+         description: "A notes app built with authentication and authorization. Allows grouping of notes. Built using Nodejs, React and RTK",
          image: znote,
          github: "https://github.com/sheriifMahadi/notes_project_frontend",
          url: "https://z-note.netlify.app/",
