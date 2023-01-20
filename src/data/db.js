@@ -21,15 +21,15 @@ const projects = {
       url: "https://mahadisheriff.pythonanywhere.com/",
       alt: "event-app-img"
      },
-    //  {
-    //   id: 3,
-    //   title: "z-notes",
-    //   description: "A notes app built using Nodejs, React and RTK.",
-    //   image: znote,
-    //   github: "https://github.com/sheriifMahadi/notes_project_frontend",
-    //   url: "https://z-note.netlify.app/",
-    //   alt: "z-notes-img"
-    //  },
+      {
+         id: 3,
+         title: "z-notes",
+         description: "A notes app built using Nodejs, React and RTK.",
+         image: znote,
+         github: "https://github.com/sheriifMahadi/notes_project_frontend",
+         url: "https://z-note.netlify.app/",
+         alt: "z-notes-img"
+      },
   ]
 }
 
