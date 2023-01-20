@@ -1,6 +1,6 @@
 import auction from '../data/auction.gif'
 import event from '../data/event.gif'
-import z-note from '../data/z-notes.gif'
+import znote from '../data/z-notes.gif'
 const projects = {
   "data": [
     {
@@ -23,9 +23,9 @@ const projects = {
      },
     //  {
     //   id: 3,
-    //   title: "Z-notes",
+    //   title: "z-notes",
     //   description: "A notes app built using Nodejs, React and RTK.",
-    //   image: z-note,
+    //   image: znote,
     //   github: "https://github.com/sheriifMahadi/notes_project_frontend",
     //   url: "https://z-note.netlify.app/",
     //   alt: "z-notes-img"
