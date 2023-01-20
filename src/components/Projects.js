@@ -50,7 +50,7 @@ const Projects = ({ windowsize }) => {
                             <a href={data.github} className={classes.linkStyling}>
                               <Button size="small" className={classes.cardAction}>Github</Button>
                             </a>
-                            <a href={data.github} className={classes.linkStyling}>
+                            <a href={data.url} className={classes.linkStyling}>
                               <Button size="small" className={classes.cardAction}>Visit website</Button>
                             </a>
                            </CardActions>
