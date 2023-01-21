@@ -18,7 +18,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const About = () => {
   const classes = useStyles()
     const skills = ['HTML & CSS', 'JavaScript', 'Python', 'SQL', 'GraphQL']
-    const frameworks = ['Nodejs', 'Django & DRF', 'Flask', 'React']
+    const frameworks = ['Nodejs', 'React' 'Django & DRF', 'Flask']
 
     return (
       <div id="about">
