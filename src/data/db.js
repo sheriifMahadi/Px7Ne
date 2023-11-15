@@ -11,7 +11,7 @@ const projects = {
      description: "A multivendor ecommerce app.",
      image: auction,
      github: "https://github.com/sheriifMahadi/diginet-store",
-     url: "https://digistore.pythonanywhere.com/myaccount/",
+     url: "https://digistore.pythonanywhere.com",
      alt: "auction-app-img"
     },
     {
