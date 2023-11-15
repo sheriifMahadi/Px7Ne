@@ -7,11 +7,11 @@ const projects = {
   "data": [
     {
      id: 1,
-     title: "Auction app",
-     description: "Auction app built using Django and JavaScript.",
+     title: "Diginet",
+     description: "A multivendor ecommerce app.",
      image: auction,
-     github: "https://github.com/sheriifMahadi/django-auction-app",
-     url: "https://mahadi.pythonanywhere.com/",
+     github: "https://github.com/sheriifMahadi/diginet-store",
+     url: "https://digistore.pythonanywhere.com/myaccount/",
      alt: "auction-app-img"
     },
     {
